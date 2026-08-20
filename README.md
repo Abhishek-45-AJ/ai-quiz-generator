@@ -50,6 +50,7 @@ pip install -r requirements.txt
 # Set environment variables in .env file
 # GEMINI_API_KEY=your_gemini_api_key
 # SECRET_KEY=your_jwt_secret_key
+# MONGO_URI=your_mongo_uri
 
 # Start FastAPI server
 uvicorn app.main:app --reload --port 8000
@@ -57,7 +58,7 @@ uvicorn app.main:app --reload --port 8000
 ### 3. Frontend Setup
 bash
 # Navigate to frontend directory
-cd frontend
+cd quiz-frontend
 
 # Install dependencies
 npm install
